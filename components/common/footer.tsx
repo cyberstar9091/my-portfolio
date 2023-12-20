@@ -40,16 +40,6 @@ const Footer = () => {
           }}
           href="/Maksym_Resume.pdf"
         ></Button>
-        <Button
-          classes="ml-3"
-          type={ButtonTypes.WHITE}
-          name="Let's Talk"
-          href={SOCIAL_LINKS.topmate}
-          otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
-          }}
-        ></Button>
       </div>
       <h2 className="text-center text-sm sm:text-base mt-8">
         Designed and Developed with ❤️ by Maksym
