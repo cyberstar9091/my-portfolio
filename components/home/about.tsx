@@ -1,6 +1,6 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
+// Copyright Maksym Morar 2021,2022. All Rights Reserved.
 // Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
+// Author contact: https://www.linkedin.com/in/alphamaksym/
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -69,8 +69,7 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I am a passionate UI Engineer who bridges the gap between development
-        and design.{" "}
+        I am a full stack, frontend & backend expert.{" "}
       </span>
       <span
         className={`about-2 leading-tight ${
@@ -78,7 +77,7 @@ const AboutSection = () => {
         }`}
       >
         I take responsibility to craft a good user experience using modern
-        frontend architecture.
+        frontend architecture & reliable backend architecture.
       </span>
     </h1>
   );

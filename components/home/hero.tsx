@@ -1,6 +1,6 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
+// Copyright Maksym Morar 2021,2022. All Rights Reserved.
 // Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
+// Author contact: https://www.linkedin.com/in/alphamaksym/
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -83,7 +83,7 @@ const HeroSection = React.memo(() => {
     <div className={HERO_STYLES.CONTENT}>
       <div className="md:mb-4 mb-2">
         <h2 className="text-4xl seq">Hello 👋🏻</h2>
-        <h1 className="text-3xl seq">I am Ayush Singh</h1>
+        <h1 className="text-3xl seq">I am Maksym Morar</h1>
       </div>
       <p className="mb-4">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
@@ -98,7 +98,7 @@ const HeroSection = React.memo(() => {
             target: "_blank",
             rel: "noreferrer",
           }}
-          href="/Ayush_Resume.pdf"
+          href="/Maksym_Resume.pdf"
         ></Button>
         <Button
           classes="ml-3"

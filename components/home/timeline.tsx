@@ -1,6 +1,6 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
+// Copyright Maksym Morar 2021,2022. All Rights Reserved.
 // Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
+// Author contact: https://www.linkedin.com/in/alphamaksym/
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -465,7 +465,7 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
     >
       <Image
         className="w-full h-8"
-        src="/timeline/title-bar.svg"
+        src="/timeline/titlebar.png"
         alt="Title bar"
         width={644}
         height={34}
@@ -480,6 +480,7 @@ const TimelineSection = ({ isDesktop }: IDesktop) => {
               src={(item as CheckpointNode).slideImage || ""}
               key={`${(item as CheckpointNode).title}-${index}`}
               alt="Timeline"
+              style={{ objectFit: 'fill' }}
               layout="fill"
             />
           ))}

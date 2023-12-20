@@ -1,6 +1,6 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
+// Copyright Maksym Morar 2021,2022. All Rights Reserved.
 // Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
+// Author contact: https://www.linkedin.com/in/alphamaksym/
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -132,7 +132,7 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
       <h1 className="section-heading seq mt-2">My Works</h1>
       <h2 className="text-2xl md:max-w-3xl w-full seq max-w-sm mt-2">
         I have contributed in over 20+ projects ranging from Frontend
-        development, UI/UX design, Open Source, and Motion Graphics
+        & backend developments and full stack ones.
       </h2>
     </div>
   );
